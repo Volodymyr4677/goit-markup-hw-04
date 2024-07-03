@@ -489,6 +489,7 @@ img {
 
 }
 
+
 .footer-studio {
     color: #f4f4fd;
 
@@ -506,9 +507,46 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-
 }
 
-.team-icons-list {
+.footer-container {
+    margin-right: 120px;
+}
+
+.footer-text-icons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-list-icons {
     display: flex;
+    gap: 16px;
+}
+
+.footer-icons-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-icons-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons-link:hover,
+.footer-icons-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-icons-link-svg {
+    fill: #f4f4fd;
 }
