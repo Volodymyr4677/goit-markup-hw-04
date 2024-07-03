@@ -492,6 +492,10 @@ img {
 
 }
 
+.footer-container-icons-logo {
+    display: flex;
+    align-items: baseline;
+}
 
 .footer-studio {
     color: #f4f4fd;
