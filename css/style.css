@@ -366,7 +366,7 @@ img {
 
 
 
-.team-icons-item {}
+
 
 .icons-link {
     align-items: center;
@@ -492,15 +492,8 @@ img {
 
 }
 
-.footer-container-icons-logo {
-    display: flex;
-    align-items: baseline;
-}
-
 .footer-studio {
     color: #f4f4fd;
-
-
 }
 
 .footer-web {
@@ -518,6 +511,8 @@ img {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
+
 }
 
 .footer-logo-container {
