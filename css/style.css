@@ -517,6 +517,10 @@ img {
 }
 
 .footer-container {
+    display: flex;
+}
+
+.footer-logo-container {
     margin-right: 120px;
 }
 
